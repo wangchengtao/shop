@@ -17,6 +17,7 @@ yarn-error.log
 /public/js
 /public/css
 /public/mix-manifest.json
+/public/fonts
 
 
 /config/ide-helper.php
