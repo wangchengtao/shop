@@ -53,8 +53,6 @@ class UsersController extends AdminController
         });
 
         return $grid;
-
-        return $grid;
     }
 
     /**
