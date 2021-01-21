@@ -108,7 +108,15 @@ class AdminTablesSeeder extends Seeder
                     "order" => 0,
                     "title" => "运营不可见",
                     "icon" => "fa-bars",
-                    "uri" => "/auth/roles",
+                    "uri" => "/auth/rolesh",
+                    "permission" => "users"
+                ],
+                [
+                    "parent_id" => 0,
+                    "order" => 0,
+                    "title" => "类目管理",
+                    "icon" => "fa-bars",
+                    "uri" => "categories",
                     "permission" => NULL
                 ]
             ]
@@ -195,10 +203,6 @@ class AdminTablesSeeder extends Seeder
                 [
                     "role_id" => 1,
                     "menu_id" => 2
-                ],
-                [
-                    "role_id" => 1,
-                    "menu_id" => 12
                 ]
             ]
         );
@@ -221,6 +225,10 @@ class AdminTablesSeeder extends Seeder
                 [
                     "role_id" => 2,
                     "permission_id" => 4
+                ],
+                [
+                    "role_id" => 2,
+                    "permission_id" => 6
                 ],
                 [
                     "role_id" => 2,
