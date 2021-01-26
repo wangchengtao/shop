@@ -19,6 +19,7 @@ class CrowdfundingProductsController extends CommonProductsController
     public function customGrid(Grid $grid)
     {
         // 展示众筹相关字段
+        $grid->id('ID')->sortable();
         $grid->column('crowdfunding.target_amount', '目标金额');
         $grid->column('crowdfunding.end_at', '结束时间');
         $grid->column('crowdfunding.total_amount', '目前金额');
