@@ -20,6 +20,7 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "^2.0",
         "moontoast/math": "^1.2",
+        "orkhanahmadov/laravel-zip-validator": "^1.7",
         "overtrue/laravel-lang": "^4.2",
         "yansongda/pay": "^2.10"
     },
